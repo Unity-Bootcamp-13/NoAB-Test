@@ -81,4 +81,9 @@ public class TouchPad : MonoBehaviour
     {
         string HaHaHA = "Test";
     }
+
+    private void Test2()
+    {
+        string Test = "ImGoingToGoHome";
+    }
 }
