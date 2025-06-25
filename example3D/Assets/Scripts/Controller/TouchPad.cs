@@ -9,6 +9,15 @@ public class TouchPad : MonoBehaviour
     public PlayerMovement _player; // 플레이어 위치 바꿔주기 위함
     private bool _buttonPressed = false; // 버튼 눌림 여부
     public int now = 0;
+
+
+
+
+
+
+
+
+
     private void Start()
     {
         _touchPad = GetComponent<RectTransform>(); // 터치패드받아와용
