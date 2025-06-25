@@ -76,4 +76,9 @@ public class TouchPad : MonoBehaviour
     {
         Debug.Log("모바일 빌드");
     }
+
+    private void ThisIsTest()
+    {
+        string HaHaHA = "Test";
+    }
 }
