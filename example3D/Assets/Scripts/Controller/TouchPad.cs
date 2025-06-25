@@ -8,10 +8,10 @@ public class TouchPad : MonoBehaviour
     public float _dragRadius = 120.0f; // 방향 컨트롤러 움직이는 최대 반지름
     public PlayerMovement _player; // 플레이어 위치 바꿔주기 위함
     private bool _buttonPressed = false; // 버튼 눌림 여부
-
+    public int now = 0;
     private void Start()
     {
-        _touchPad = GetComponent<RectTransform>();
+        _touchPad = GetComponent<RectTransform>(); // 터치패드받아와용
 
         //터치 패드 좌표 (기준 값)
         _startPos = _touchPad.position;
